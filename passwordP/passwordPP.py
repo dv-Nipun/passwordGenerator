@@ -2,7 +2,7 @@ import random
 import string as a
 
 def generate_pass():
-    c = random.randint(6, 12)
+    c = random.randint(5, 10)
     d = a.ascii_lowercase
     e = a.ascii_uppercase
     f = a.digits
