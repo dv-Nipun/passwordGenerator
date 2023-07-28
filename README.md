@@ -1,7 +1,7 @@
 # Random Password Generator
 
 This repository contains a Python script that generates a random password with the following characteristics:
-- Length: Random length between 6 and 12 characters.
+- Length: Random length between 5 and 10 characters.
 - Characters: A mix of uppercase letters, lowercase letters, and digits.
 
 The script is obfuscated and can be found in [generate_password.py](generate_password.py).
