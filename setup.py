@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="passwordP",                     # This is the name of the package
-    version="1.1.1.1",                        # The initial release version
+    version="1.1.7.7",                        # The initial release version
     author="Nipun dogra",                     # Full name of the author
     description="password generator package",
     long_description_content_type="text/markdown",
