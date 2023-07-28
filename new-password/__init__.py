@@ -1,1 +1,1 @@
-from .passwordPP import generate_pass
+from .new-password import generate_pass
