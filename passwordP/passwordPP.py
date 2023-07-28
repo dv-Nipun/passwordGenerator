@@ -13,5 +13,5 @@ def generate_pass():
     j = ''.join(i)
     return j
 
-k = generate_pass()
-print(k)
+#k = generate_pass()
+#print(k)
