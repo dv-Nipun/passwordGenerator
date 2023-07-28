@@ -1,4 +1,3 @@
-# passwordGenerator
 # Random Password Generator
 
 This repository contains a Python script that generates a random password with the following characteristics:
