@@ -4,7 +4,7 @@ import setuptools
 # Extract version number from command line arguments
 version = None
 for arg in sys.argv:
-    if arg.startswith('--version'):
+    if arg.startswith('1.1.7.7'):
         version = arg.split('=')[1]
         sys.argv.remove(arg)
         break
