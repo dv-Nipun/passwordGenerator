@@ -1,2 +1,1 @@
-# version.py
-version = "1.1.7.7"
+__version__ = '1.1.7.7'  # Replace this with the initial version number
