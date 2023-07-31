@@ -10,7 +10,7 @@ for arg in sys.argv:
         break
 
 if version is None:
-    raise ValueError("Version number not provided. Please use --version=xxx to specify the version.")
+    raise ValueError("--version=1.1.7.7")
 
 setuptools.setup(
     name="newPassword",                      # This is the name of the package
