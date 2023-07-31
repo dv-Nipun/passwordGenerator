@@ -23,7 +23,7 @@ pip install newPassword
  import newPassword
 
 # Generate a random password
-password = newPassword.generate_password()
+password = newPassword.generate_pass()
 
 print(password)
 
