@@ -5,6 +5,28 @@ This repository contains a Python script that generates a random password with t
 - Characters: A mix of uppercase letters, lowercase letters, and digits.
 
 The script is obfuscated and can be found in [generate_password.py](generate_password.py).
+# Password Generator Package
+
+![PyPI](https://img.shields.io/pypi/v/newPassword)
+![PyPI - License](https://img.shields.io/pypi/l/newPassword)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/newPassword)
+
+This is a Python package that provides a password generator.
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install newPassword
+
+ import newPassword
+
+# Generate a random password
+password = newPassword.generate_password()
+
+print(password)
+
 
 ## How to Use
 
