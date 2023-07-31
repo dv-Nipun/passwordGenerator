@@ -1,22 +1,9 @@
-import sys
 import setuptools
-
-# Default version number
-default_version = "1.1.7.7"
-
-# Extract version number from command line arguments
-version = None
-if '--version' in sys.argv:
-    index = sys.argv.index('--version')
-    if len(sys.argv) > index + 1:
-        version = sys.argv[index + 1]
-
-if version is None:
-    version = default_version  # Use the default version number if not provided via command line
+from version import __version__
 
 setuptools.setup(
     name="newPassword",                      # This is the name of the package
-    version=version,                         # Version number provided via command line or default
+    version=__version__,                     # Version number from version.py
     author="Nipun Dogra",                    # Full name of the author
     description="Password generator package",
     long_description_content_type="text/markdown",
