@@ -6,11 +6,10 @@ default_version = "1.1.7.7"
 
 # Extract version number from command line arguments
 version = None
-for arg in sys.argv:
-    if arg.startswith('--version'):
-        version = arg.split('=')[1]
-        sys.argv.remove(arg)
-        break
+if '--version' in sys.argv:
+    index = sys.argv.index('--version')
+    if len(sys.argv) > index + 1:
+        version = sys.argv[index + 1]
 
 if version is None:
     version = default_version  # Use the default version number if not provided via command line
