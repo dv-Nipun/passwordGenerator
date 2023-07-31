@@ -4,13 +4,12 @@ import setuptools
 # Extract version number from command line arguments
 version = None
 for arg in sys.argv:
-    if arg.startswith('1.1.7.7'):
+    if arg.startswith('--version='):
         version = arg.split('=')[1]
-        sys.argv.remove(arg)
         break
 
 if version is None:
-    raise ValueError("--version=1.1.7.7")
+    raise ValueError("Version number not provided. Please use --version=xxx to specify the version.")
 
 setuptools.setup(
     name="newPassword",                      # This is the name of the package
